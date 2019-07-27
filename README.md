@@ -11,5 +11,8 @@ Creates a 2D matrix to demonstrate all connections between matrix. Will use DFS 
 
 Implements a C++ unordered set to keep track of already visited stations to increase efficiency. Path do not have given distances so unable to find the shortest path (in terms of distance)
 
+# Sample Run of Project
+![Image of Sample Run](https://raw.githubusercontent.com/jalvarez24/London-Metro-Path-Finder/master/London%20Metro%20Images/Sample%20Run.png)
+
 # How to improve?
 I would try to improve my project by finding a way to return the path that travels along the least amount of stations.
