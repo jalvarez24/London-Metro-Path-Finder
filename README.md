@@ -3,7 +3,7 @@ Unfinished Project for CPSC131 Data Structures Course. Uses DFS (Depth-First Sea
 
 By Jayro Alvarez
 
-# What does the code do?
+## What does the code do?
 Takes in two text files:
   -1: Names of all stations (string) and corresponding stations number (int)
   -2: All connections between stations (int to int)
@@ -14,8 +14,8 @@ Stores the path in a vector while it's looking for paths and returns it at the e
 
 *Implements an unordered set to keep track of already visited stations to increase efficiency. Paths do not have given distances so unable to find the shortest path (in terms of distance)
 
-# Sample Run of Project
+## Sample Run of Project
 ![Image of Sample Run](https://raw.githubusercontent.com/jalvarez24/London-Metro-Path-Finder/master/London%20Metro%20Images/Sample%20Run.png)
 
-# How to improve?
+## How to improve?
 I would try to improve my project by finding a way to return the path that travels along the least amount of stations.
