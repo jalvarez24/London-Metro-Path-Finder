@@ -9,7 +9,9 @@ Takes in two text files:
 
 Creates a 2D matrix to demonstrate all connections between matrix. Will use DFS to search through these connections until/if one is found and returns first one.
 
-Implements a C++ unordered set to keep track of already visited stations to increase efficiency. Path do not have given distances so unable to find the shortest path (in terms of distance)
+Stores the path in a vector while it's looking for paths and returns it at the end. (Returns empty vector if no path is found)
+
+*Implements a unordered set to keep track of already visited stations to increase efficiency. Path do not have given distances so unable to find the shortest path (in terms of distance)
 
 # Sample Run of Project
 ![Image of Sample Run](https://raw.githubusercontent.com/jalvarez24/London-Metro-Path-Finder/master/London%20Metro%20Images/Sample%20Run.png)
